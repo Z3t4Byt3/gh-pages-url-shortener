@@ -2,26 +2,26 @@
 ![Total Lines](https://img.shields.io/tokei/lines/github/nelsontky/gh-pages-url-shortener?color=green)
 ![GitHub stars](https://img.shields.io/github/stars/nelsontky/gh-pages-url-shortener?style=social)
 
-# 🔗 GitHub Pages URL Shortener
+# 🔗 GitHub Pages Encurtador de URL
 
-This is a minimal URL shortener that can be entirely hosted on GitHub pages. It
-does not need the maintenance of any servers or databases and can be hosted
-entirely on GitHub for free!
+Este é um encurtador de URL simples que pode ser totalmente hospedado no GitHub Pages. Isto quer dizer que  
+não precisa da manutenção de nenhum servidor ou banco de dados, e pode ser hospedado
+inteiramente no GitHub de graça!
 
 [Yay! We got to the top of HN!](https://news.ycombinator.com/item?id=25110879)
 
 <img src="https://i.imgur.com/ZfD7XGt.png" alt="Top of HN" width="240px">
 
-And on GitHub trending!
+E no GitHub trending!
 
 <img src="https://i.imgur.com/OkYCSOx.png" alt="GitHub Trending" width="240px">
 
 ## 👨‍🏫 Demo
 
-1. [nlsn.cf/1](https://nlsn.cf/1) should link to this repo.
+1. [nlsn.cf/1](https://nlsn.cf/1) deve vincular a este repo.
 
-1. To add a new short link, add an issue with the title being the link you want
-   to shorten (including the `http(s)://`) to
+1. Para adicionar um novo link encurtado, adicione um issue com o title being o link que você quer
+   para encurtar (incluindo o `http(s)://`) to
    [https://github.com/nelsontky/gh-pages-url-shortener-db/issues](https://github.com/nelsontky/gh-pages-url-shortener-db/issues).
 
 1. The newly created short url can be accessed via `nlsn.cf/{issue_number}`
