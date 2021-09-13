@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![Total Lines](https://img.shields.io/tokei/lines/github/nelsontky/gh-pages-url-shortener?color=green)
-![GitHub stars](https://img.shields.io/github/stars/nelsontky/gh-pages-url-shortener?style=social)
+![Total Lines](https://img.shields.io/tokei/lines/github/nelsontky/gh-pages-url-shortener?color=blue)
+![GitHub stars](https://img.shields.io/github/stars/Z3t4Byt3/gh-pages-url-shortener?style=social)
 
 # 🔗 GitHub Pages Encurtador de URL
 
@@ -16,7 +16,7 @@ E no GitHub trending!
 
 <img src="https://i.imgur.com/OkYCSOx.png" alt="GitHub Trending" width="240px">
 
-## 👨‍🏫 Demo
+## 👨‍🏫 Demonstração
 
 1. [nlsn.cf/1](https://nlsn.cf/1) deve vincular a este repo.
 
@@ -24,18 +24,18 @@ E no GitHub trending!
    para encurtar (incluindo o `http(s)://`) to
    [https://github.com/nelsontky/gh-pages-url-shortener-db/issues](https://github.com/nelsontky/gh-pages-url-shortener-db/issues).
 
-1. The newly created short url can be accessed via `nlsn.cf/{issue_number}`
+1. A URL encurtada recém-criada pode ser acessada via `nlsn.cf/{issue_number}`
 
-## ☕️ Features
+## ☕️ Reursos
 
-1. Unlike many URL shorteners, this one ~~does not need a database~~ uses a
-   "database" in the form of GitHub issues and can be entirely hosted on GitHub
+1. Ao contrário de muitos encurtadores de URL, este ~~não precisa de um banco de dados~~ usa um
+   "banco de dados" na forma de issues do GitHub e pode ser totalmente hospedado em GitHub
    pages.
 
-1. There is no need for the pound symbol - short URLs look clean like this:
-   `nlsn.cf/1` instead of looking like this: `nlsn.cf/#1`.
+1. Não há necessidade do símbolo de libra - URLs encurtadas aparecem limpos assim:
+   `nlsn.cf/1` em vez de ter a seguinte aparência: `nlsn.cf/#1`.
 
-## 💡 How does this work?
+## 💡 Como é que isso funciona?
 
 _Thanks to @kidGodzilla for the pretty neat explanation
 [here](https://github.com/nelsontky/gh-pages-url-shortener/issues/5#issuecomment-728040879)._
@@ -47,8 +47,8 @@ _Thanks to @kidGodzilla for the pretty neat explanation
 
 ## 😎 This is so cool! How can I use this with my own domain?!
 
-_Disclaimer: This method of creating a URL shortener is hacky and not meant to
-be reliable. Do proceed at your own risk!_
+_Isenção de responsabilidade: este método de criação de um encurtador de URL,é hacky e não deve ser
+Ser confiável. Continue por sua própria conta e risco!_
 
 1. Fork the repo before cloning your fork.
 1. Set up GitHub pages for your forked repo.
@@ -66,12 +66,12 @@ be reliable. Do proceed at your own risk!_
       `var PATH_SEGMENTS_TO_SKIP = 1;`.
       1. This is as GitHub domains have an additional path segment (the repo
          name) after the host name.
-1. Create a new repo as a database. (Or you could use your forked repo)
+1. Crie um novo repo como um database. (Or you could use your forked repo)
    1. Update `var GITHUB_ISSUES_LINK = "<your-github-issues-link>";` at the top
       of `404.html` accordingly afterwards.
-      1. Format for `GITHUB_ISSUES_LINK`:
+      1. Formato para `GITHUB_ISSUES_LINK`:
          `https://api.github.com/repos/{owner}/{repo}/issues/`
-      1. Remember the trailing `/`!
+      1. Lembre-se da trailing `/`!
 1. Push your changes to your forked repo, and your low cost and cool as heck URL
    shortener will be ready for use!
 
